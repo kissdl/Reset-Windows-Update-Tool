@@ -1,0 +1,166 @@
+# .\wureset\lang\
+# hungarian.txt
+
+# Reset Windows Update Tool (http://wureset.com)
+
+# Ez a fájl módosítható, hogy kompatibilis legyen más nyelvekkel.
+# For printing the end line insert "\n" into the text.
+
+# Language: Hungarian
+# Author: Kiss Dénes László
+# Updated: 04/30/2019
+# Version: 1.0.0.3
+
+# Warnings
+1000|Nyomjon meg egy gombot a folytatáshoz...
+1001|Váratlan hiba történt.
+1002|Válasszon egy lehetőséget: 
+1003|Érvénytelen lehetőség.
+1004|Sajnáljuk, ez a lehetőség nem áll rendelkezésre erre az operációs rendszerre.
+1005|A művelet sikeresen befejeződött.
+1006|Hiba történt a művelet során.
+1007|A szolgáltatás nem állítható le. Szeretné újra próbálni? (I/N): 
+
+# Compatibility
+2000|Sajnos ez az operációs rendszer nem kompatibilis ezzel az eszközzel.
+2001|    Hiba történt a rendszer ellenőrzése közben.\n    Lehet, hogy kereskedelmi vagy próbaverziót használ.\n\n    Ellenkező esetben ellenőrizze, hogy a rendszer rendelkezik-e a megfelelő biztonsági javítással.\n
+
+# Elevation
+3000|Ellenőrizze a rendszergazdai engedélyeket.
+3001|    Nem rendszergazdaként futtatja.\n    Az eszköz nem fut rendszargazdai jogosultság nélkül.\n\n    Ezt eszközt futtassa rendszergazdaként.\n
+
+# Terms
+4000|Felhasználási feltételek.
+4001|    Az eszköz ezen módszerei módosítják a fájlokat\n    és a rendszerleíró adatbázis beállításait.\n    Az eszköz használatáért nem vállalunk felelősséget.\n\n    Ez az eszköz nem garanciális. Az okozott kár az Ön felelőssége.\n\n    Ellenőrizze a programkódot, ha nem bízik benne.\n    https://github.com/ManuelGil\n
+4002|Folytatni szeretné ezt a folyamatot? (I/N): 
+
+# Menu
+5000|Ez az eszköz visszaállítja a Windows Update összetevőket.
+5001|A rendszer biztonságának feloldása.
+5002|A Windows Update összetevők visszaállítása.
+5003|Az ideiglenes Windows-fájlok törlése.
+5004|Megnyitja az Internet Explorer beállításait.
+5005|Chkdsk-t futtat a Windows partíción.
+5006|Rendszerfájlok ellenőrzése.
+5007|Windows kép ellenőrzése a komponenstároló esetleges hibái miatt.
+5008|Ellenőrzi, hogy a kép sérült-e.
+5009|A javítási műveleteket automatikusan végzi.
+5010|Megtisztítja a helyettesített elemeket.
+5011|Törli a hibás rendszerleíró értékeket.
+5012|Javítja/visszaállítja a Winsock beállításait.
+5013|Keresse meg a Windows-frissítéseket.
+5014|Más helyi megoldásokat vizsgál.
+5015|Megvizsgálja az egyéb online megoldásokat.
+5016|Letölti a diagnosztikai eszközöket.
+5017|Újraindítja a számítógépet.
+5018|\n                            ?. Súgó.    *. Beállítások.    0. Bezár.\n
+
+# Functions
+6000|Nyissa meg a rendszer védelmi beállításait.
+6001|A Windows Update szolgáltatás leállítása.
+6002|A szolgáltatás állapotának ellenőrzése.\n
+6003|    Az intelligens átviteli szolgáltatás (BITS) szolgáltatásait nem lehetett leállítani.\n
+6004|    Nem sikerült leállítani a Windows Update szolgáltatást.\n
+6005|    Nem sikerült leállítani az alkalmazásazonosító szolgáltatást.\n
+6006|    Nem sikerült leállítani a titkosítási szolgáltatást.\n
+6007|A qmgr*.dat fájlok törlése.
+6008|Törölje a régebbi szoftverelosztási példányokat.
+6009|A szoftverelosztási mappák átnevezése.
+6010|    Nem sikerült átnevezni a SoftwareDistribution mappát.\n
+6011|Helyezze vissza a BITS és a Windows Update szolgáltatás eredeti biztonsági leíróját.
+6012|Regisztrálja újra a BITS fájlokat és a Windows Update fájlokat.
+6013|Winsock visszaállítása.
+6014|WinHTTP Proxy visszaállítása.
+6015|A szolgáltatások automatikus visszaállítása.
+6016|A Windows Update szolgáltatás indítása.
+6017|Ideiglenes fájlok törlése a Windows rendszerben.
+6018|Az Internet Explorer beállításainak megnyitása.
+6019|Ellenőrizze a fájlrendszereket és a kötet-metaadat fájlokat a logikai és fizikai hibákért(CHKDSK.exe).
+6020|Vizsgálja meg a rendszerfájlokat, és javítsa a hiányzó vagy sérült rendszerfájlokat (SFC.exe).
+6021|Ellenőrizze a Windows-kép összetevő memóriáját (DISM /ScanHealth paranccsal).
+6022|Ellenőrizze, hogy a kép sérült-e, és hgy javíthat-e (DISM /CheckHealth).
+6023|Automatikus javítási műveletek végrehajtása (DISM /RestoreHealth).
+6024|Távolítsa el a leválasztott komponenseket az összetett memória méretének csökkentése érdekében (DISM /StartComponentCleanup).
+6025|A rendszerleíró adatbázis hibás értékeinek módosítása.
+6026|A rendszerleíró adatbázis másolatának létrehozása: 
+6027|    A rendszerleíró adatbázisban nem történt változás\n
+6028|    Kérjük, próbálja újra később.\n
+6029|A biztonsági mentés ellenőrzése
+6030|    Valami baj történt.\n
+6031|    A folytatás előtt kézzel készítsen biztonsági másolatot a rendszerleíró adatbázisról.\n
+6032|A rendszerleíró adatbázis értékeinek eltávolítása.
+6033|Értékek hozzáadása a rendszerleíró adatbázishoz.
+6034|Winsock vezérlés visszaállítása.
+6035|A tranzakciós naplók visszaállítása.
+6036|A TCP / IP visszaállítása.
+6037|Winsock visszaállítása.
+6038|A házirend-alapértelmezések visszaállítása.
+6039|A DNS-gyorsítótár visszaállítása.
+6040|A proxy konfigurálása.
+6041|Frissítések ellenőrzése.
+6042|Várjon...
+6043|Keressen helyi megoldásokat.
+6044|Online megoldások keresése.
+6045|A számítógép újraindítása.
+6046|    A rendszer újraindul 60 másodpercen belül.\n    Mentse az összes dokumentumot.\n
+6047|A rendszer 60 másodpercen belül újraindul. Mentse az összes nyitott dokumentumot.
+6048|Töltse le és futtassa a rendszer diagnosztikát.
+6049|Windows Update Windows 7, Windows 8 és Windows 8.1.
+6050|Windows Update a Windows 10 rendszerben.
+6051|Alkalmazások a Windows 8.1 rendszerben.
+6052|Alkalmazások a Windows 10 rendszerben.
+6053|A Windows 10 Start menüje.
+6054|                                                        0. Vissza.
+
+# Commands
+7000|\nEz az eszköz a Windows Update összetevők visszaállítására szolgál.\n
+7001|Használata:\n
+7002|    WURESET [/reset] [/search] [/clean:{temp|regs|sock}]
+7003|            [/sfc] [/dism:{scan|check|repair|clean}]\n
+7004|Paraméterek listája:\n
+7005|    /reset        Visszaállítja a Windows Update összetevőket.
+7006|    /search       Keresi a frissítéseket.
+7007|    /clean        Törli a beállításokat.
+7008|        temp      Az ideiglenes Windows-fájlok törlése.
+7009|        regs      Érvénytelen értékek módosítása a beállításjegyzékben.
+7010|        sock      Visszaállítja a Winsock beállításait.
+7011|    /sfc          Az összes védett rendszerfájl ellenőrzése.
+7012|    /dism         Dism beállítások.
+7013|        scan      A lemezképfájlok sérüléseinek megkeresése.
+7014|        check     Ellenőrzi, hogy a lemezkép sérült-e.
+7015|        repair    Automatikus javítási műveletek végrehajtása.
+7016|        clean     Törölje a leválasztott összetevőket.
+7017|    /?            Súgó üzenet megjelenítése.\n
+7018|Példa a használatra:\n
+7019|    WURESET /reset
+7020|    WURESET /clean:temp
+7021|    WURESET /clean:regs:temp
+7022|    WURESET /dism:scan:repair:clean\n
+7023|Szerző:\n
+7024|    Manuel Gil.\n
+7025|\nWURESET [/reset] [/search] [/clean:{temp|regs|sock}]
+7026|        [/sfc] [/dism:{scan|check|repair|clean}]\n
+7027|Leírás:\n
+7028|    Ez az eszköz a Windows Update összetevők visszaállítására szolgál.\n
+7029|Példa a használatra:\n
+7030|    WURESET /reset
+7031|    WURESET /clean:temp
+7032|    WURESET /clean:regs:temp
+7033|    WURESET /dism:scan:repair:clean\n
+7034|Írja be a részletek megtekintéséhez, hogy  "WURESET /?".\n
+
+# Help
+8000|index.html
+8001|http://docs.wureset.com
+
+# Updates wureset 11.0.0.7
+# ---------
+
+# Menu
+9000|A csoportházirend frissítése.
+9001|Keresse meg a Windows termékkulcsát.
+
+# Functions
+9100|A Windows frissítési folyamatának törlése.
+9101|A csoportházirend-frissítés kényszerítése.
+9102|Keresi a termékkulcsot.
